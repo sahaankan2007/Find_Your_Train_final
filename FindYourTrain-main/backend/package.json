@@ -1,0 +1,8 @@
+{
+  "name": "find-your-train-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python -m uvicorn app.main:app --port 8000",
+    "dev": "python -m uvicorn app.main:app --port 8000 --reload"
+  }
+}

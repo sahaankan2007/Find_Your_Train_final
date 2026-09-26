@@ -1,0 +1,160 @@
+{
+  "12301": {
+    "trainNumber": "12301",
+    "trainName": "Howrah Rajdhani Express",
+    "trainClass": "express",
+    "source": "Howrah Junction",
+    "sourceCode": "HWH",
+    "destination": "New Delhi",
+    "destinationCode": "NDLS",
+    "totalDistanceKm": 1447,
+    "departureTime": "17:05",
+    "scheduledArrivalTime": "10:05",
+    "defaultPlatformNumber": 1,
+    "stations": [
+      {"id": "hwh", "name": "Howrah Junction", "code": "HWH", "coordinates": [88.3426, 22.5839], "scheduledArrival": "17:05", "scheduledDeparture": "17:05", "distanceFromStart": 0, "elevationM": 12},
+      {"id": "dhn", "name": "Dhanbad", "code": "DHN", "coordinates": [86.4369, 23.7957], "scheduledArrival": "20:10", "scheduledDeparture": "20:15", "distanceFromStart": 260, "elevationM": 237},
+      {"id": "gaya", "name": "Gaya Junction", "code": "GAYA", "coordinates": [84.9940, 24.7956], "scheduledArrival": "22:15", "scheduledDeparture": "22:20", "distanceFromStart": 438, "elevationM": 115},
+      {"id": "pnbe", "name": "Patna Junction", "code": "PNBE", "coordinates": [85.1376, 25.5941], "scheduledArrival": "23:55", "scheduledDeparture": "00:05", "distanceFromStart": 531, "elevationM": 54},
+      {"id": "ddu", "name": "Pt. Deen Dayal Upadhyaya Jn", "code": "DDU", "coordinates": [83.4568, 25.2728], "scheduledArrival": "01:52", "scheduledDeparture": "01:55", "distanceFromStart": 643, "elevationM": 79},
+      {"id": "ald", "name": "Prayagraj Junction", "code": "ALD", "coordinates": [81.8462, 25.4358], "scheduledArrival": "03:35", "scheduledDeparture": "03:40", "distanceFromStart": 793, "elevationM": 98},
+      {"id": "cnb", "name": "Kanpur Central", "code": "CNB", "coordinates": [80.3458, 26.4499], "scheduledArrival": "05:10", "scheduledDeparture": "05:15", "distanceFromStart": 935, "elevationM": 126},
+      {"id": "ndls", "name": "New Delhi", "code": "NDLS", "coordinates": [77.2090, 28.6422], "scheduledArrival": "10:05", "scheduledDeparture": null, "distanceFromStart": 1447, "elevationM": 216}
+    ],
+    "routeCoordinates": [
+      [88.3426, 22.5839], [87.5, 23.3], [86.4369, 23.7957],
+      [85.9, 24.1], [85.3, 24.5], [84.9940, 24.7956],
+      [85.0, 25.1], [85.1376, 25.5941], [84.3, 25.3],
+      [83.4568, 25.2728], [82.5, 25.3], [81.8462, 25.4358],
+      [81.0, 25.7], [80.3458, 26.4499], [79.5, 27.0],
+      [78.8, 27.5], [78.0, 28.0], [77.5, 28.4], [77.2090, 28.6422]
+    ],
+    "topography": [
+      {"distanceKm": 0, "elevationM": 12}, {"distanceKm": 50, "elevationM": 45},
+      {"distanceKm": 100, "elevationM": 120}, {"distanceKm": 150, "elevationM": 198},
+      {"distanceKm": 200, "elevationM": 215}, {"distanceKm": 260, "elevationM": 237},
+      {"distanceKm": 320, "elevationM": 189}, {"distanceKm": 380, "elevationM": 145},
+      {"distanceKm": 438, "elevationM": 115}, {"distanceKm": 531, "elevationM": 54},
+      {"distanceKm": 600, "elevationM": 72}, {"distanceKm": 643, "elevationM": 79},
+      {"distanceKm": 720, "elevationM": 92}, {"distanceKm": 793, "elevationM": 98},
+      {"distanceKm": 870, "elevationM": 112}, {"distanceKm": 935, "elevationM": 126},
+      {"distanceKm": 1050, "elevationM": 148}, {"distanceKm": 1150, "elevationM": 167},
+      {"distanceKm": 1250, "elevationM": 189}, {"distanceKm": 1350, "elevationM": 204},
+      {"distanceKm": 1447, "elevationM": 216}
+    ],
+    "defaultConditions": {
+      "speedKmh": 97, "weather": "Cloudy", "temperatureC": 24,
+      "congestionLevel": "Moderate", "congestionReason": "High train density",
+      "additionalConditions": []
+    },
+    "initialProgressPct": 35
+  },
+  "36835": {
+    "trainNumber": "36835",
+    "trainName": "Howrah\u2013Barddhaman Chord Local",
+    "trainClass": "local",
+    "source": "Howrah Junction",
+    "sourceCode": "HWH",
+    "destination": "Barddhaman",
+    "destinationCode": "BWN",
+    "totalDistanceKm": 96,
+    "departureTime": "06:00",
+    "scheduledArrivalTime": "07:45",
+    "defaultPlatformNumber": 1,
+    "stations": [
+      {"id": "hwh_cl", "name": "Howrah Junction", "code": "HWH", "coordinates": [88.3426, 22.5839], "scheduledArrival": "06:00", "scheduledDeparture": "06:00", "distanceFromStart": 0, "elevationM": 12},
+      {"id": "bkn", "name": "Bankura Road", "code": "BRR", "coordinates": [88.25, 22.72], "scheduledArrival": "06:18", "scheduledDeparture": "06:19", "distanceFromStart": 15, "elevationM": 18},
+      {"id": "dom", "name": "Domjur", "code": "DMJ", "coordinates": [88.10, 22.78], "scheduledArrival": "06:32", "scheduledDeparture": "06:33", "distanceFromStart": 26, "elevationM": 22},
+      {"id": "uli", "name": "Uluberia", "code": "ULB", "coordinates": [87.97, 22.47], "scheduledArrival": "06:55", "scheduledDeparture": "06:56", "distanceFromStart": 40, "elevationM": 14},
+      {"id": "bly", "name": "Bally", "code": "BLY", "coordinates": [88.22, 22.65], "scheduledArrival": "07:15", "scheduledDeparture": "07:16", "distanceFromStart": 58, "elevationM": 16},
+      {"id": "bddc", "name": "Barddhaman", "code": "BWN", "coordinates": [87.8615, 23.2324], "scheduledArrival": "07:45", "scheduledDeparture": null, "distanceFromStart": 96, "elevationM": 38}
+    ],
+    "routeCoordinates": [
+      [88.3426, 22.5839], [88.25, 22.72], [88.10, 22.78],
+      [88.0, 22.65], [87.97, 22.47], [88.0, 22.75],
+      [88.22, 22.65], [88.1, 22.9], [87.9, 23.0],
+      [87.8615, 23.2324]
+    ],
+    "topography": [
+      {"distanceKm": 0, "elevationM": 12}, {"distanceKm": 15, "elevationM": 18},
+      {"distanceKm": 26, "elevationM": 22}, {"distanceKm": 40, "elevationM": 14},
+      {"distanceKm": 58, "elevationM": 16}, {"distanceKm": 70, "elevationM": 25},
+      {"distanceKm": 82, "elevationM": 30}, {"distanceKm": 96, "elevationM": 38}
+    ],
+    "defaultConditions": {
+      "speedKmh": 55, "weather": "Cloudy", "temperatureC": 28,
+      "congestionLevel": "Low", "congestionReason": null,
+      "additionalConditions": []
+    },
+    "initialProgressPct": 28
+  },
+  "63296": {
+    "trainNumber": "63296",
+    "trainName": "DDU\u2013Gaya MEMU",
+    "trainClass": "local",
+    "source": "Pt. Deen Dayal Upadhyaya Jn",
+    "sourceCode": "DDU",
+    "destination": "Gaya Junction",
+    "destinationCode": "GAYA",
+    "totalDistanceKm": 155,
+    "departureTime": "08:30",
+    "scheduledArrivalTime": "11:10",
+    "defaultPlatformNumber": 1,
+    "stations": [
+      {"id": "ddu_m", "name": "Pt. Deen Dayal Upadhyaya Jn", "code": "DDU", "coordinates": [83.4568, 25.2728], "scheduledArrival": "08:30", "scheduledDeparture": "08:30", "distanceFromStart": 0, "elevationM": 79},
+      {"id": "ssx", "name": "Sasaram", "code": "SSM", "coordinates": [84.0274, 24.9478], "scheduledArrival": "09:35", "scheduledDeparture": "09:37", "distanceFromStart": 64, "elevationM": 138},
+      {"id": "ehm", "name": "Dehri-On-Sone", "code": "DOS", "coordinates": [84.1843, 24.9124], "scheduledArrival": "09:58", "scheduledDeparture": "09:59", "distanceFromStart": 80, "elevationM": 118},
+      {"id": "gaya_m", "name": "Gaya Junction", "code": "GAYA", "coordinates": [84.9940, 24.7956], "scheduledArrival": "11:10", "scheduledDeparture": null, "distanceFromStart": 155, "elevationM": 115}
+    ],
+    "routeCoordinates": [
+      [83.4568, 25.2728], [83.7, 25.1], [84.0274, 24.9478],
+      [84.1843, 24.9124], [84.4, 24.85], [84.7, 24.82],
+      [84.9940, 24.7956]
+    ],
+    "topography": [
+      {"distanceKm": 0, "elevationM": 79}, {"distanceKm": 30, "elevationM": 108},
+      {"distanceKm": 64, "elevationM": 138}, {"distanceKm": 80, "elevationM": 118},
+      {"distanceKm": 110, "elevationM": 125}, {"distanceKm": 155, "elevationM": 115}
+    ],
+    "defaultConditions": {
+      "speedKmh": 68, "weather": "Sunny", "temperatureC": 32,
+      "congestionLevel": "Low", "congestionReason": null,
+      "additionalConditions": []
+    },
+    "initialProgressPct": 42
+  },
+  "64423": {
+    "trainNumber": "64423",
+    "trainName": "Ghaziabad\u2013New Delhi EMU",
+    "trainClass": "local",
+    "source": "Ghaziabad",
+    "sourceCode": "GZB",
+    "destination": "New Delhi",
+    "destinationCode": "NDLS",
+    "totalDistanceKm": 28,
+    "departureTime": "07:00",
+    "scheduledArrivalTime": "07:40",
+    "defaultPlatformNumber": 1,
+    "stations": [
+      {"id": "ghz", "name": "Ghaziabad", "code": "GZB", "coordinates": [77.4169, 28.6674], "scheduledArrival": "07:00", "scheduledDeparture": "07:00", "distanceFromStart": 0, "elevationM": 207},
+      {"id": "sbb", "name": "Sahibabad", "code": "SBB", "coordinates": [77.3543, 28.6681], "scheduledArrival": "07:12", "scheduledDeparture": "07:13", "distanceFromStart": 6, "elevationM": 209},
+      {"id": "anz", "name": "Anand Vihar Terminal", "code": "ANVT", "coordinates": [77.3159, 28.6469], "scheduledArrival": "07:22", "scheduledDeparture": "07:23", "distanceFromStart": 12, "elevationM": 213},
+      {"id": "ndls_e", "name": "New Delhi", "code": "NDLS", "coordinates": [77.2090, 28.6422], "scheduledArrival": "07:40", "scheduledDeparture": null, "distanceFromStart": 28, "elevationM": 216}
+    ],
+    "routeCoordinates": [
+      [77.4169, 28.6674], [77.3543, 28.6681],
+      [77.3159, 28.6469], [77.2090, 28.6422]
+    ],
+    "topography": [
+      {"distanceKm": 0, "elevationM": 207}, {"distanceKm": 6, "elevationM": 209},
+      {"distanceKm": 12, "elevationM": 213}, {"distanceKm": 20, "elevationM": 215},
+      {"distanceKm": 28, "elevationM": 216}
+    ],
+    "defaultConditions": {
+      "speedKmh": 60, "weather": "Fog", "temperatureC": 22,
+      "congestionLevel": "High", "congestionReason": "Platform occupancy",
+      "additionalConditions": ["Signal Halt"]
+    },
+    "initialProgressPct": 22
+  }
+}
