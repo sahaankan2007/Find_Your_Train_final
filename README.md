@@ -49,6 +49,10 @@ Add your free [MapTiler Cloud API Key](https://cloud.maptiler.com/account/keys/)
 ```env
 VITE_MAPTILER_API_KEY=your_key_here
 ```
+Add your free [Openweathermap API](https://openweathermap.org/api):
+```env
+VITE_OPENWEATHERMAP_API_KEY=your_key_here
+```
 
 ### 3. Install Dependencies
 ```bash
